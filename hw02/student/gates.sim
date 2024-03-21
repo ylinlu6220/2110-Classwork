@@ -1,0 +1,1422 @@
+{
+  "version": "1.9.2b 2110 version",
+  "globalBitSize": 1,
+  "clockSpeed": 1,
+  "circuits": [
+    {
+      "name": "NOT",
+      "components": [
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.SimpleTransistorPeer",
+          "x": 32,
+          "y": 25,
+          "properties": {
+            "Type": "N-Type",
+            "Gate Location": "Left/Top",
+            "Label location": "NORTH",
+            "Label": ""
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.ConstantPeer",
+          "x": 33,
+          "y": 11,
+          "properties": {
+            "Label location": "EAST",
+            "Label": "Power",
+            "Value": "1",
+            "Direction": "SOUTH",
+            "Bitsize": "1",
+            "Base": "BINARY"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.SimpleTransistorPeer",
+          "x": 32,
+          "y": 16,
+          "properties": {
+            "Type": "P-Type",
+            "Gate Location": "Left/Top",
+            "Label location": "NORTH",
+            "Label": ""
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 18,
+          "y": 22,
+          "properties": {
+            "Label location": "WEST",
+            "Label": "IN",
+            "Is input?": "Yes",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 57,
+          "y": 22,
+          "properties": {
+            "Label location": "EAST",
+            "Label": "OUT",
+            "Is input?": "No",
+            "Direction": "WEST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.ConstantPeer",
+          "x": 33,
+          "y": 33,
+          "properties": {
+            "Label location": "EAST",
+            "Label": "Ground",
+            "Value": "0",
+            "Direction": "NORTH",
+            "Bitsize": "1",
+            "Base": "BINARY"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.misc.Text",
+          "x": 1,
+          "y": 1,
+          "properties": {
+            "Text": "Name: Yulin Lu"
+          }
+        }
+      ],
+      "wires": [
+        {
+          "x": 20,
+          "y": 23,
+          "length": 8,
+          "isHorizontal": true
+        },
+        {
+          "x": 28,
+          "y": 18,
+          "length": 4,
+          "isHorizontal": true
+        },
+        {
+          "x": 28,
+          "y": 18,
+          "length": 5,
+          "isHorizontal": false
+        },
+        {
+          "x": 28,
+          "y": 23,
+          "length": 4,
+          "isHorizontal": false
+        },
+        {
+          "x": 28,
+          "y": 27,
+          "length": 4,
+          "isHorizontal": true
+        },
+        {
+          "x": 34,
+          "y": 13,
+          "length": 3,
+          "isHorizontal": false
+        },
+        {
+          "x": 34,
+          "y": 16,
+          "length": 1,
+          "isHorizontal": false
+        },
+        {
+          "x": 34,
+          "y": 20,
+          "length": 3,
+          "isHorizontal": false
+        },
+        {
+          "x": 34,
+          "y": 23,
+          "length": 2,
+          "isHorizontal": false
+        },
+        {
+          "x": 34,
+          "y": 23,
+          "length": 23,
+          "isHorizontal": true
+        },
+        {
+          "x": 34,
+          "y": 25,
+          "length": 1,
+          "isHorizontal": false
+        },
+        {
+          "x": 34,
+          "y": 29,
+          "length": 4,
+          "isHorizontal": false
+        }
+      ]
+    },
+    {
+      "name": "NAND",
+      "components": [
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.SimpleTransistorPeer",
+          "x": 41,
+          "y": 24,
+          "properties": {
+            "Type": "N-Type",
+            "Gate Location": "Left/Top",
+            "Label location": "NORTH",
+            "Label": ""
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.SimpleTransistorPeer",
+          "x": 41,
+          "y": 30,
+          "properties": {
+            "Type": "N-Type",
+            "Gate Location": "Left/Top",
+            "Label location": "NORTH",
+            "Label": ""
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.ConstantPeer",
+          "x": 42,
+          "y": 8,
+          "properties": {
+            "Label location": "EAST",
+            "Label": "Power",
+            "Value": "1",
+            "Direction": "SOUTH",
+            "Bitsize": "1",
+            "Base": "BINARY"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.SimpleTransistorPeer",
+          "x": 36,
+          "y": 13,
+          "properties": {
+            "Type": "P-Type",
+            "Gate Location": "Left/Top",
+            "Label location": "NORTH",
+            "Label": ""
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.SimpleTransistorPeer",
+          "x": 46,
+          "y": 13,
+          "properties": {
+            "Type": "P-Type",
+            "Gate Location": "Left/Top",
+            "Label location": "NORTH",
+            "Label": ""
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 15,
+          "y": 18,
+          "properties": {
+            "Label location": "WEST",
+            "Label": "A",
+            "Is input?": "Yes",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 15,
+          "y": 23,
+          "properties": {
+            "Label location": "WEST",
+            "Label": "B",
+            "Is input?": "Yes",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 65,
+          "y": 21,
+          "properties": {
+            "Label location": "EAST",
+            "Label": "OUT",
+            "Is input?": "No",
+            "Direction": "WEST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.ConstantPeer",
+          "x": 42,
+          "y": 36,
+          "properties": {
+            "Label location": "EAST",
+            "Label": "Ground",
+            "Value": "0",
+            "Direction": "NORTH",
+            "Bitsize": "1",
+            "Base": "BINARY"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.misc.Text",
+          "x": 1,
+          "y": 1,
+          "properties": {
+            "Text": "Name: Yulin Lu"
+          }
+        }
+      ],
+      "wires": [
+        {
+          "x": 17,
+          "y": 19,
+          "length": 9,
+          "isHorizontal": true
+        },
+        {
+          "x": 17,
+          "y": 24,
+          "length": 22,
+          "isHorizontal": true
+        },
+        {
+          "x": 26,
+          "y": 15,
+          "length": 4,
+          "isHorizontal": false
+        },
+        {
+          "x": 26,
+          "y": 15,
+          "length": 10,
+          "isHorizontal": true
+        },
+        {
+          "x": 26,
+          "y": 19,
+          "length": 7,
+          "isHorizontal": false
+        },
+        {
+          "x": 26,
+          "y": 26,
+          "length": 15,
+          "isHorizontal": true
+        },
+        {
+          "x": 38,
+          "y": 13,
+          "length": 5,
+          "isHorizontal": true
+        },
+        {
+          "x": 38,
+          "y": 17,
+          "length": 4,
+          "isHorizontal": false
+        },
+        {
+          "x": 38,
+          "y": 21,
+          "length": 5,
+          "isHorizontal": true
+        },
+        {
+          "x": 39,
+          "y": 15,
+          "length": 7,
+          "isHorizontal": true
+        },
+        {
+          "x": 39,
+          "y": 15,
+          "length": 9,
+          "isHorizontal": false
+        },
+        {
+          "x": 39,
+          "y": 24,
+          "length": 8,
+          "isHorizontal": false
+        },
+        {
+          "x": 39,
+          "y": 32,
+          "length": 2,
+          "isHorizontal": true
+        },
+        {
+          "x": 43,
+          "y": 10,
+          "length": 3,
+          "isHorizontal": false
+        },
+        {
+          "x": 43,
+          "y": 13,
+          "length": 5,
+          "isHorizontal": true
+        },
+        {
+          "x": 43,
+          "y": 21,
+          "length": 1,
+          "isHorizontal": false
+        },
+        {
+          "x": 43,
+          "y": 21,
+          "length": 5,
+          "isHorizontal": true
+        },
+        {
+          "x": 43,
+          "y": 22,
+          "length": 2,
+          "isHorizontal": false
+        },
+        {
+          "x": 43,
+          "y": 22,
+          "length": 22,
+          "isHorizontal": true
+        },
+        {
+          "x": 43,
+          "y": 28,
+          "length": 2,
+          "isHorizontal": false
+        },
+        {
+          "x": 43,
+          "y": 34,
+          "length": 2,
+          "isHorizontal": false
+        },
+        {
+          "x": 48,
+          "y": 17,
+          "length": 4,
+          "isHorizontal": false
+        }
+      ]
+    },
+    {
+      "name": "NOR",
+      "components": [
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.SimpleTransistorPeer",
+          "x": 38,
+          "y": 30,
+          "properties": {
+            "Type": "N-Type",
+            "Gate Location": "Left/Top",
+            "Label location": "NORTH",
+            "Label": ""
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.SimpleTransistorPeer",
+          "x": 45,
+          "y": 30,
+          "properties": {
+            "Type": "N-Type",
+            "Gate Location": "Left/Top",
+            "Label location": "NORTH",
+            "Label": ""
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.ConstantPeer",
+          "x": 42,
+          "y": 8,
+          "properties": {
+            "Label location": "EAST",
+            "Label": "Power",
+            "Value": "1",
+            "Direction": "SOUTH",
+            "Bitsize": "1",
+            "Base": "BINARY"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.SimpleTransistorPeer",
+          "x": 41,
+          "y": 12,
+          "properties": {
+            "Type": "P-Type",
+            "Gate Location": "Left/Top",
+            "Label location": "NORTH",
+            "Label": ""
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.SimpleTransistorPeer",
+          "x": 41,
+          "y": 18,
+          "properties": {
+            "Type": "P-Type",
+            "Gate Location": "Left/Top",
+            "Label location": "NORTH",
+            "Label": ""
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 15,
+          "y": 18,
+          "properties": {
+            "Label location": "WEST",
+            "Label": "A",
+            "Is input?": "Yes",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 15,
+          "y": 23,
+          "properties": {
+            "Label location": "WEST",
+            "Label": "B",
+            "Is input?": "Yes",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 65,
+          "y": 23,
+          "properties": {
+            "Label location": "EAST",
+            "Label": "OUT",
+            "Is input?": "No",
+            "Direction": "WEST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.ConstantPeer",
+          "x": 42,
+          "y": 36,
+          "properties": {
+            "Label location": "EAST",
+            "Label": "Ground",
+            "Value": "0",
+            "Direction": "NORTH",
+            "Bitsize": "1",
+            "Base": "BINARY"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.misc.Text",
+          "x": 1,
+          "y": 1,
+          "properties": {
+            "Text": "Name: Yulin Lu"
+          }
+        }
+      ],
+      "wires": [
+        {
+          "x": 17,
+          "y": 19,
+          "length": 12,
+          "isHorizontal": true
+        },
+        {
+          "x": 17,
+          "y": 24,
+          "length": 24,
+          "isHorizontal": true
+        },
+        {
+          "x": 29,
+          "y": 14,
+          "length": 5,
+          "isHorizontal": false
+        },
+        {
+          "x": 29,
+          "y": 14,
+          "length": 12,
+          "isHorizontal": true
+        },
+        {
+          "x": 29,
+          "y": 19,
+          "length": 13,
+          "isHorizontal": false
+        },
+        {
+          "x": 29,
+          "y": 32,
+          "length": 9,
+          "isHorizontal": true
+        },
+        {
+          "x": 40,
+          "y": 27,
+          "length": 3,
+          "isHorizontal": true
+        },
+        {
+          "x": 40,
+          "y": 27,
+          "length": 3,
+          "isHorizontal": false
+        },
+        {
+          "x": 40,
+          "y": 34,
+          "length": 3,
+          "isHorizontal": true
+        },
+        {
+          "x": 41,
+          "y": 20,
+          "length": 4,
+          "isHorizontal": false
+        },
+        {
+          "x": 41,
+          "y": 24,
+          "length": 8,
+          "isHorizontal": false
+        },
+        {
+          "x": 41,
+          "y": 32,
+          "length": 4,
+          "isHorizontal": true
+        },
+        {
+          "x": 43,
+          "y": 10,
+          "length": 2,
+          "isHorizontal": false
+        },
+        {
+          "x": 43,
+          "y": 16,
+          "length": 2,
+          "isHorizontal": false
+        },
+        {
+          "x": 43,
+          "y": 22,
+          "length": 2,
+          "isHorizontal": false
+        },
+        {
+          "x": 43,
+          "y": 24,
+          "length": 3,
+          "isHorizontal": false
+        },
+        {
+          "x": 43,
+          "y": 24,
+          "length": 22,
+          "isHorizontal": true
+        },
+        {
+          "x": 43,
+          "y": 27,
+          "length": 4,
+          "isHorizontal": true
+        },
+        {
+          "x": 43,
+          "y": 34,
+          "length": 2,
+          "isHorizontal": false
+        },
+        {
+          "x": 43,
+          "y": 34,
+          "length": 4,
+          "isHorizontal": true
+        },
+        {
+          "x": 47,
+          "y": 27,
+          "length": 3,
+          "isHorizontal": false
+        }
+      ]
+    },
+    {
+      "name": "AND",
+      "components": [
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.SimpleTransistorPeer",
+          "x": 31,
+          "y": 24,
+          "properties": {
+            "Type": "N-Type",
+            "Gate Location": "Left/Top",
+            "Label location": "NORTH",
+            "Label": ""
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.SimpleTransistorPeer",
+          "x": 31,
+          "y": 30,
+          "properties": {
+            "Type": "N-Type",
+            "Gate Location": "Left/Top",
+            "Label location": "NORTH",
+            "Label": ""
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.SimpleTransistorPeer",
+          "x": 46,
+          "y": 24,
+          "properties": {
+            "Type": "N-Type",
+            "Gate Location": "Left/Top",
+            "Label location": "NORTH",
+            "Label": ""
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.ConstantPeer",
+          "x": 32,
+          "y": 8,
+          "properties": {
+            "Label location": "EAST",
+            "Label": "Power",
+            "Value": "1",
+            "Direction": "SOUTH",
+            "Bitsize": "1",
+            "Base": "BINARY"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.ConstantPeer",
+          "x": 47,
+          "y": 10,
+          "properties": {
+            "Label location": "EAST",
+            "Label": "Power",
+            "Value": "1",
+            "Direction": "SOUTH",
+            "Bitsize": "1",
+            "Base": "BINARY"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.SimpleTransistorPeer",
+          "x": 26,
+          "y": 13,
+          "properties": {
+            "Type": "P-Type",
+            "Gate Location": "Left/Top",
+            "Label location": "NORTH",
+            "Label": ""
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.SimpleTransistorPeer",
+          "x": 36,
+          "y": 13,
+          "properties": {
+            "Type": "P-Type",
+            "Gate Location": "Left/Top",
+            "Label location": "NORTH",
+            "Label": ""
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.SimpleTransistorPeer",
+          "x": 46,
+          "y": 15,
+          "properties": {
+            "Type": "P-Type",
+            "Gate Location": "Left/Top",
+            "Label location": "NORTH",
+            "Label": ""
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 15,
+          "y": 18,
+          "properties": {
+            "Label location": "WEST",
+            "Label": "A",
+            "Is input?": "Yes",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 15,
+          "y": 23,
+          "properties": {
+            "Label location": "WEST",
+            "Label": "B",
+            "Is input?": "Yes",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 55,
+          "y": 21,
+          "properties": {
+            "Label location": "EAST",
+            "Label": "OUT",
+            "Is input?": "No",
+            "Direction": "WEST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.ConstantPeer",
+          "x": 32,
+          "y": 36,
+          "properties": {
+            "Label location": "EAST",
+            "Label": "Ground",
+            "Value": "0",
+            "Direction": "NORTH",
+            "Bitsize": "1",
+            "Base": "BINARY"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.ConstantPeer",
+          "x": 47,
+          "y": 32,
+          "properties": {
+            "Label location": "EAST",
+            "Label": "Ground",
+            "Value": "0",
+            "Direction": "NORTH",
+            "Bitsize": "1",
+            "Base": "BINARY"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.misc.Text",
+          "x": 1,
+          "y": 1,
+          "properties": {
+            "Text": "Name: Yulin Lu"
+          }
+        }
+      ],
+      "wires": [
+        {
+          "x": 17,
+          "y": 19,
+          "length": 9,
+          "isHorizontal": true
+        },
+        {
+          "x": 17,
+          "y": 24,
+          "length": 12,
+          "isHorizontal": true
+        },
+        {
+          "x": 26,
+          "y": 15,
+          "length": 4,
+          "isHorizontal": false
+        },
+        {
+          "x": 26,
+          "y": 19,
+          "length": 7,
+          "isHorizontal": false
+        },
+        {
+          "x": 26,
+          "y": 26,
+          "length": 5,
+          "isHorizontal": true
+        },
+        {
+          "x": 28,
+          "y": 13,
+          "length": 5,
+          "isHorizontal": true
+        },
+        {
+          "x": 28,
+          "y": 17,
+          "length": 4,
+          "isHorizontal": false
+        },
+        {
+          "x": 28,
+          "y": 21,
+          "length": 5,
+          "isHorizontal": true
+        },
+        {
+          "x": 29,
+          "y": 15,
+          "length": 7,
+          "isHorizontal": true
+        },
+        {
+          "x": 29,
+          "y": 15,
+          "length": 9,
+          "isHorizontal": false
+        },
+        {
+          "x": 29,
+          "y": 24,
+          "length": 8,
+          "isHorizontal": false
+        },
+        {
+          "x": 29,
+          "y": 32,
+          "length": 2,
+          "isHorizontal": true
+        },
+        {
+          "x": 33,
+          "y": 10,
+          "length": 3,
+          "isHorizontal": false
+        },
+        {
+          "x": 33,
+          "y": 13,
+          "length": 5,
+          "isHorizontal": true
+        },
+        {
+          "x": 33,
+          "y": 21,
+          "length": 1,
+          "isHorizontal": false
+        },
+        {
+          "x": 33,
+          "y": 21,
+          "length": 5,
+          "isHorizontal": true
+        },
+        {
+          "x": 33,
+          "y": 22,
+          "length": 2,
+          "isHorizontal": false
+        },
+        {
+          "x": 33,
+          "y": 22,
+          "length": 9,
+          "isHorizontal": true
+        },
+        {
+          "x": 33,
+          "y": 28,
+          "length": 2,
+          "isHorizontal": false
+        },
+        {
+          "x": 33,
+          "y": 34,
+          "length": 2,
+          "isHorizontal": false
+        },
+        {
+          "x": 38,
+          "y": 17,
+          "length": 4,
+          "isHorizontal": false
+        },
+        {
+          "x": 42,
+          "y": 17,
+          "length": 4,
+          "isHorizontal": true
+        },
+        {
+          "x": 42,
+          "y": 17,
+          "length": 5,
+          "isHorizontal": false
+        },
+        {
+          "x": 42,
+          "y": 22,
+          "length": 4,
+          "isHorizontal": false
+        },
+        {
+          "x": 42,
+          "y": 26,
+          "length": 4,
+          "isHorizontal": true
+        },
+        {
+          "x": 48,
+          "y": 12,
+          "length": 3,
+          "isHorizontal": false
+        },
+        {
+          "x": 48,
+          "y": 15,
+          "length": 1,
+          "isHorizontal": false
+        },
+        {
+          "x": 48,
+          "y": 19,
+          "length": 3,
+          "isHorizontal": false
+        },
+        {
+          "x": 48,
+          "y": 22,
+          "length": 2,
+          "isHorizontal": false
+        },
+        {
+          "x": 48,
+          "y": 22,
+          "length": 7,
+          "isHorizontal": true
+        },
+        {
+          "x": 48,
+          "y": 24,
+          "length": 1,
+          "isHorizontal": false
+        },
+        {
+          "x": 48,
+          "y": 28,
+          "length": 4,
+          "isHorizontal": false
+        }
+      ]
+    },
+    {
+      "name": "OR",
+      "components": [
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.SimpleTransistorPeer",
+          "x": 29,
+          "y": 30,
+          "properties": {
+            "Type": "N-Type",
+            "Gate Location": "Left/Top",
+            "Label location": "NORTH",
+            "Label": ""
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.SimpleTransistorPeer",
+          "x": 36,
+          "y": 30,
+          "properties": {
+            "Type": "N-Type",
+            "Gate Location": "Left/Top",
+            "Label location": "NORTH",
+            "Label": ""
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.SimpleTransistorPeer",
+          "x": 46,
+          "y": 24,
+          "properties": {
+            "Type": "N-Type",
+            "Gate Location": "Left/Top",
+            "Label location": "NORTH",
+            "Label": ""
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.ConstantPeer",
+          "x": 33,
+          "y": 8,
+          "properties": {
+            "Label location": "EAST",
+            "Label": "Power",
+            "Value": "1",
+            "Direction": "SOUTH",
+            "Bitsize": "1",
+            "Base": "BINARY"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.ConstantPeer",
+          "x": 47,
+          "y": 10,
+          "properties": {
+            "Label location": "EAST",
+            "Label": "Power",
+            "Value": "1",
+            "Direction": "SOUTH",
+            "Bitsize": "1",
+            "Base": "BINARY"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.SimpleTransistorPeer",
+          "x": 32,
+          "y": 12,
+          "properties": {
+            "Type": "P-Type",
+            "Gate Location": "Left/Top",
+            "Label location": "NORTH",
+            "Label": ""
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.SimpleTransistorPeer",
+          "x": 32,
+          "y": 18,
+          "properties": {
+            "Type": "P-Type",
+            "Gate Location": "Left/Top",
+            "Label location": "NORTH",
+            "Label": ""
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.SimpleTransistorPeer",
+          "x": 46,
+          "y": 15,
+          "properties": {
+            "Type": "P-Type",
+            "Gate Location": "Left/Top",
+            "Label location": "NORTH",
+            "Label": ""
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 15,
+          "y": 18,
+          "properties": {
+            "Label location": "WEST",
+            "Label": "A",
+            "Is input?": "Yes",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 15,
+          "y": 23,
+          "properties": {
+            "Label location": "WEST",
+            "Label": "B",
+            "Is input?": "Yes",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 65,
+          "y": 21,
+          "properties": {
+            "Label location": "EAST",
+            "Label": "OUT",
+            "Is input?": "No",
+            "Direction": "WEST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.ConstantPeer",
+          "x": 33,
+          "y": 36,
+          "properties": {
+            "Label location": "EAST",
+            "Label": "Ground",
+            "Value": "0",
+            "Direction": "NORTH",
+            "Bitsize": "1",
+            "Base": "BINARY"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.ConstantPeer",
+          "x": 47,
+          "y": 32,
+          "properties": {
+            "Label location": "EAST",
+            "Label": "Ground",
+            "Value": "0",
+            "Direction": "NORTH",
+            "Bitsize": "1",
+            "Base": "BINARY"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.misc.Text",
+          "x": 1,
+          "y": 1,
+          "properties": {
+            "Text": "Name: Yulin Lu"
+          }
+        }
+      ],
+      "wires": [
+        {
+          "x": 17,
+          "y": 19,
+          "length": 7,
+          "isHorizontal": true
+        },
+        {
+          "x": 17,
+          "y": 24,
+          "length": 15,
+          "isHorizontal": true
+        },
+        {
+          "x": 24,
+          "y": 14,
+          "length": 5,
+          "isHorizontal": false
+        },
+        {
+          "x": 24,
+          "y": 14,
+          "length": 8,
+          "isHorizontal": true
+        },
+        {
+          "x": 24,
+          "y": 19,
+          "length": 13,
+          "isHorizontal": false
+        },
+        {
+          "x": 24,
+          "y": 32,
+          "length": 5,
+          "isHorizontal": true
+        },
+        {
+          "x": 31,
+          "y": 27,
+          "length": 3,
+          "isHorizontal": true
+        },
+        {
+          "x": 31,
+          "y": 27,
+          "length": 3,
+          "isHorizontal": false
+        },
+        {
+          "x": 31,
+          "y": 34,
+          "length": 3,
+          "isHorizontal": true
+        },
+        {
+          "x": 32,
+          "y": 20,
+          "length": 4,
+          "isHorizontal": false
+        },
+        {
+          "x": 32,
+          "y": 24,
+          "length": 8,
+          "isHorizontal": false
+        },
+        {
+          "x": 32,
+          "y": 32,
+          "length": 4,
+          "isHorizontal": true
+        },
+        {
+          "x": 34,
+          "y": 10,
+          "length": 2,
+          "isHorizontal": false
+        },
+        {
+          "x": 34,
+          "y": 16,
+          "length": 2,
+          "isHorizontal": false
+        },
+        {
+          "x": 34,
+          "y": 22,
+          "length": 2,
+          "isHorizontal": false
+        },
+        {
+          "x": 34,
+          "y": 24,
+          "length": 3,
+          "isHorizontal": false
+        },
+        {
+          "x": 34,
+          "y": 24,
+          "length": 9,
+          "isHorizontal": true
+        },
+        {
+          "x": 34,
+          "y": 27,
+          "length": 4,
+          "isHorizontal": true
+        },
+        {
+          "x": 34,
+          "y": 34,
+          "length": 2,
+          "isHorizontal": false
+        },
+        {
+          "x": 34,
+          "y": 34,
+          "length": 4,
+          "isHorizontal": true
+        },
+        {
+          "x": 38,
+          "y": 27,
+          "length": 3,
+          "isHorizontal": false
+        },
+        {
+          "x": 43,
+          "y": 17,
+          "length": 3,
+          "isHorizontal": true
+        },
+        {
+          "x": 43,
+          "y": 17,
+          "length": 7,
+          "isHorizontal": false
+        },
+        {
+          "x": 43,
+          "y": 24,
+          "length": 2,
+          "isHorizontal": false
+        },
+        {
+          "x": 43,
+          "y": 26,
+          "length": 3,
+          "isHorizontal": true
+        },
+        {
+          "x": 48,
+          "y": 12,
+          "length": 3,
+          "isHorizontal": false
+        },
+        {
+          "x": 48,
+          "y": 15,
+          "length": 1,
+          "isHorizontal": false
+        },
+        {
+          "x": 48,
+          "y": 19,
+          "length": 3,
+          "isHorizontal": false
+        },
+        {
+          "x": 48,
+          "y": 22,
+          "length": 2,
+          "isHorizontal": false
+        },
+        {
+          "x": 48,
+          "y": 22,
+          "length": 17,
+          "isHorizontal": true
+        },
+        {
+          "x": 48,
+          "y": 24,
+          "length": 1,
+          "isHorizontal": false
+        },
+        {
+          "x": 48,
+          "y": 28,
+          "length": 4,
+          "isHorizontal": false
+        }
+      ]
+    }
+  ],
+  "revisionSignatures": [
+    "CTU4ZTJiN2M0YTVlODRlODE2NTU5MGM5Y2M3NmU3ODA1NWU2YmMzZDNmNmNhZDcwMTk5NmQwY2IzZTg3NzFiY2QJMTU0NzgzMDE5NjA0MwkyMGViZWM3NjZiNTA4MjZkYjNmODAyZjk1ZmZhZWEwNmQwMmY1YmIxYThmOTc1NTBlMjBjZjFlMzRlYzRhMTdk",
+    "NThlMmI3YzRhNWU4NGU4MTY1NTkwYzljYzc2ZTc4MDU1ZTZiYzNkM2Y2Y2FkNzAxOTk2ZDBjYjNlODc3MWJjZAkwMTM1YmNmYmJlM2IwMzk4OGM3MmRjYmZlZjdhODZjOTVhMWM3MTkyOTQyNzYwZjhjZWNiMDIzOGFlYTBiZTQwCTE1NDc4MzAxOTczNDQJMjBlYmVjNzY2YjUwODI2ZGIzZjgwMmY5NWZmYWVhMDZkMDJmNWJiMWE4Zjk3NTUwZTIwY2YxZTM0ZWM0YTE3ZA\u003d\u003d",
+    "MDEzNWJjZmJiZTNiMDM5ODhjNzJkY2JmZWY3YTg2Yzk1YTFjNzE5Mjk0Mjc2MGY4Y2VjYjAyMzhhZWEwYmU0MAllOWUwNDgyMjI5NTkzYTdkM2M2YmI4NGE5YzZiYWQxYjY5MzNjNjYzMTlkMDRiYjVlYTVjOWFhZDgwMjJmMDRlCTE1NDc4NDQwNjQ1MzQJZDIxNGJkODE0ZmUzMDU4NjQ1OWYwODA5NDQ5NjYyNDg3MDNhYzE3MmNmMDE4MWIxYjUyZTk0YjQzMWU0YTJkZA\u003d\u003d",
+    "ZTllMDQ4MjIyOTU5M2E3ZDNjNmJiODRhOWM2YmFkMWI2OTMzYzY2MzE5ZDA0YmI1ZWE1YzlhYWQ4MDIyZjA0ZQk0MDhmZjVjMjIxMWRhMmEyYmY1OGRiMzliMjk2ZWE1NmI0Y2I5ZTFhMGIwMTM1MTg1NzQyZDE0YTlkMTQ0OWExCTE1NDc4NDQzMTY0OTEJNjllYWEzYzQ1MDAxOWIwYTU5YjlhODczYjNhYjk1ZGI0YmIzMDUwMWM3MWE2ZjcxYmY1ZjYwMTNlYTI5MjMxYQ\u003d\u003d",
+    "NDA4ZmY1YzIyMTFkYTJhMmJmNThkYjM5YjI5NmVhNTZiNGNiOWUxYTBiMDEzNTE4NTc0MmQxNGE5ZDE0NDlhMQkxNmYxN2I1MDNlNDczZjI1NWJhOGY5YjAwMmI0ZWZkMWFlNTE4YWY3ODZkZjYxMDk4ZWJkMDc1YzdmNjdkZTZhCTE1NDc4NDQ0MzUzMTkJNTZmY2U1YWZiNDg5NmIwZWI0OGI3MjU3NDVmMTZlNzdkYzRiYTYwZWRkOGEyMTk0MTkxNzFjNTkyMjJiNjM2ZQ\u003d\u003d",
+    "MTZmMTdiNTAzZTQ3M2YyNTViYThmOWIwMDJiNGVmZDFhZTUxOGFmNzg2ZGY2MTA5OGViZDA3NWM3ZjY3ZGU2YQliNGVlZDI5NmIxMTFhMGE1YzhhOGE4ZmI4NDRkZWI4ZjJmN2Q5YTIxNjc5ZjcyYzVlMmRkZWE1MGY3YmY4MGNjCTE1NDc4NDQ0ODc1NDQJMjZhNDk0ZDA2NTkwYjBlNWZmYjMwY2VjNDE2ZDRlNWMwOTgxZDk1ZDNhYWJmM2YwMTc3ZjgwOTM1MzFjZDRhYg\u003d\u003d",
+    "YjRlZWQyOTZiMTExYTBhNWM4YThhOGZiODQ0ZGViOGYyZjdkOWEyMTY3OWY3MmM1ZTJkZGVhNTBmN2JmODBjYwljMDdkYTBjYzk1MTVlZmYwYzg2ODRlZmU3NTZkYmQ1ODFhYjdmM2MzZGE0ZDY1ZTkzOTdjZGI1NjM5NjZmYWJhCTE1NDc4NDQ5ODExMjIJODAyYjA5ZGRiZDkwZDQ0OGYwYTc2YzI1ZTczMTcyOTNmMTlhNzZjNTU5NWU5NTE1NzJkN2EyOWU2YzFiNDE0Yg\u003d\u003d",
+    "YzA3ZGEwY2M5NTE1ZWZmMGM4Njg0ZWZlNzU2ZGJkNTgxYWI3ZjNjM2RhNGQ2NWU5Mzk3Y2RiNTYzOTY2ZmFiYQk3YjdjODA0YzY1NGEyMzgzNDg5ZjEwZGZhYjYxOWNjNTU2MmNmYTVhMjUzYmU1MzQyZjRjNDQ5M2IzZWZhNGZmCTE1NDc4NDUwODc1MjUJM2IwNzM1MjMyOTMzOTQ3NDhjMWUwZWUxYWYzNjMxNmFkNmMyMGY5ZGVjN2RjOTUwMTlkY2RiOGIwOWM1NjE0MA\u003d\u003d",
+    "N2I3YzgwNGM2NTRhMjM4MzQ4OWYxMGRmYWI2MTljYzU1NjJjZmE1YTI1M2JlNTM0MmY0YzQ0OTNiM2VmYTRmZgk0OGNlZjk4M2E2NTJkZmIyNDBlMzNjZjQ4NDE3OTI0Mzg2NWYzMjMwNjliYjMxOWU5NTFkMDg4NjEyZTc3ZGYxCTE1NDc4NDUxNTc4MDYJZWE1ZTUwYTExNGFjYTdlMWI0NDhjNzEzMmEwYjY2MGQzMDE0YWVhZDIzYTQ2ZGQ1MjRhYzNiZmI1NmZlYTA0Yw\u003d\u003d",
+    "NDhjZWY5ODNhNjUyZGZiMjQwZTMzY2Y0ODQxNzkyNDM4NjVmMzIzMDY5YmIzMTllOTUxZDA4ODYxMmU3N2RmMQkzMjY2NDIyZWU5MmVhZGYwOTE2MDU1NTU1ZWI5MmFiMmQ0MzFkMjNmMTEyMDc1Y2FmYjYyMjc0Yjk3MDI4MGNjCTE1NDc4NDUyNTgyOTkJYzNhOTBiMjhjOWJmZGFjZjI1N2ZmNzY1MzYzYmI3YTZjMDIwNzZmNjM4MDQ3ZjU1ZjA0YWFlNDM3ZjhjZTkzMQ\u003d\u003d",
+    "MzI2NjQyMmVlOTJlYWRmMDkxNjA1NTU1NWViOTJhYjJkNDMxZDIzZjExMjA3NWNhZmI2MjI3NGI5NzAyODBjYwk0MGMxYWFlNjQ2ODRkNWVkNmRjYWNiYjJmZTBhYTZhODFmNTdjOGJhYTYxOGEyY2YwZWJiYTVkNGYwMDdhNDE2CTE1NDc4NDUzNTY3MTEJMDNkYmEzMzQ1Mjk2NDUwZTMxYjJiNTkxNjg5NGIxMGZhZGZlYWNiNDc2NWE5OTQ5MjQ1Mjg3YWRjYWE0OWJmOA\u003d\u003d",
+    "NDBjMWFhZTY0Njg0ZDVlZDZkY2FjYmIyZmUwYWE2YTgxZjU3YzhiYWE2MThhMmNmMGViYmE1ZDRmMDA3YTQxNgllMDJiNzk1ZDRiYjE4YzYyNWRmNmFiNTU2NmI4NGIyODdhYTQxZTM1OTM1ZWRiYTBmODk4MjNkYWQzZjQ5NzliCTE1NDc4NDU0OTIzMzcJMzc5ZjA3NGM4ZTBiMjA3YTFhNzI4NDVhNDVmOTJhYWRlNDE0MGNjMGVkYjNjOWRjYjNjNDY2NzcyOWE0ZDlhMw\u003d\u003d",
+    "ZTAyYjc5NWQ0YmIxOGM2MjVkZjZhYjU1NjZiODRiMjg3YWE0MWUzNTkzNWVkYmEwZjg5ODIzZGFkM2Y0OTc5Ygk1YWIxOWI5NmYxNzY5ZTFkMTA1MWQwNmUxZWQyNTk2N2RjMWJjODkyNzE1YzdhNDE5MmIwYjUxOTg2NDllYTU4CTE1NDc4NDU1MTE4MDkJMzc5ZjA3NGM4ZTBiMjA3YTFhNzI4NDVhNDVmOTJhYWRlNDE0MGNjMGVkYjNjOWRjYjNjNDY2NzcyOWE0ZDlhMw\u003d\u003d",
+    "NWFiMTliOTZmMTc2OWUxZDEwNTFkMDZlMWVkMjU5NjdkYzFiYzg5MjcxNWM3YTQxOTJiMGI1MTk4NjQ5ZWE1OAk4MDQ3NzdhZTY0YWRmZmIwM2FjZjBhYThmMzg3ZGVhMmU5YWIxZTRlZDEwZGU2YzBlNTI5NWZlN2NjMTg1NmFhCTE1NDc4NDU1NDk0MzkJMzc5ZjA3NGM4ZTBiMjA3YTFhNzI4NDVhNDVmOTJhYWRlNDE0MGNjMGVkYjNjOWRjYjNjNDY2NzcyOWE0ZDlhMw\u003d\u003d",
+    "ODA0Nzc3YWU2NGFkZmZiMDNhY2YwYWE4ZjM4N2RlYTJlOWFiMWU0ZWQxMGRlNmMwZTUyOTVmZTdjYzE4NTZhYQk0MDE5YTI1MWMwNjJjMjE5ZjFmZGQwYWZkN2YzNDczMzQ1ZjhmMzQ5MGM4ODE4ZDVlYWU3YTY0ZjQ0Zjk4NzEzCTE1NDc4NTIxODU4NjcJYjQ4YTdlNGY5MTU0NjRmYzlhZDVjMjVlNWM0YjdjMWNjNjRlNGVmZGQzYmI0ZDI5M2U2MWVmMTllYmU0NDRjYg\u003d\u003d",
+    "NDAxOWEyNTFjMDYyYzIxOWYxZmRkMGFmZDdmMzQ3MzM0NWY4ZjM0OTBjODgxOGQ1ZWFlN2E2NGY0NGY5ODcxMwljNDk5NGFmMzU5YTA2MWU3NGQ3YWI2YzZjNjczZWNmN2YxZDNkYjg0ZTE2MjY4ZTZmOTAxZGQ4Mzc2YTBlMjdmCTE1NDc4NTI1MDQzMDkJNjMzNTBiOTgyZGNlNzUwNmMxZjgwYWIwOTUzOTYxMGJkNTcwYTUwZTBlYmQyN2YwMTE0MDA3YzY3YmY1NGM4NQ\u003d\u003d",
+    "YzQ5OTRhZjM1OWEwNjFlNzRkN2FiNmM2YzY3M2VjZjdmMWQzZGI4NGUxNjI2OGU2ZjkwMWRkODM3NmEwZTI3ZgllMGRlMGU3ZTQ2NzM1ZTVjYzlhMWJmMTk1ZjgzYzY3MWQxMjc4YWYzZWIwY2Q1ZTE3Y2VmNmFhYjFjYzJjNmM4CTE3MDU2OTgwNzgwNTAJYTVmZDgwM2QzYjdkNWQ0NDVhNzdiM2UyMDFjOTZhOWY5YTI0MGRkYTY4M2NlYjQ3MjAxMTQwMjY1NjRhMDIyYg\u003d\u003d",
+    "ZTBkZTBlN2U0NjczNWU1Y2M5YTFiZjE5NWY4M2M2NzFkMTI3OGFmM2ViMGNkNWUxN2NlZjZhYWIxY2MyYzZjOAllY2M0NDk3YTZkMmQxODMwNmI5YTA4MWFiMjUxNGIzZGUxZjlmNjdkZjMwOGY2MTIwMGNkMDIyNjJkNTYzZDQyCTE3MDU2OTgxMjc2MDIJNTA1ZTFmMTFhNWEwY2NhODRjMWIxNGE4YWEzMDE3MGIxY2M5MWQ4YjE2Y2MzMmJkZDdlNTRiMjRlMjFiZmMwZQ\u003d\u003d",
+    "ZWNjNDQ5N2E2ZDJkMTgzMDZiOWEwODFhYjI1MTRiM2RlMWY5ZjY3ZGYzMDhmNjEyMDBjZDAyMjYyZDU2M2Q0MgljZjQ1NGRmMDMxZTc0MjZjMjE5YTEyZjIwN2M0ZDgyYmVjNDYzY2ZiOTNlNDgzNzhkMjI3NjE4OTYwODgwZDIzCTE3MDYxMjI2NDE4NzEJNTJkYzFhODAwMGM1NDc0YTUzZmIzOWJhMjBkYWY3N2M4OGFkMDFmMWU5ZWMxMTQ1OGU0Y2Q1ZmU1Y2VmZjE1ZglDVFk1WW1Zek16RTRNVFJsTldFME5XWmxOMlZrWmpabE16VmhNalJrWlRjek5qSmxORE00TXprNE5UTTJZV0V3WmpabVpEQm1ZVFEwT0RObE1tTTBaVElKTVRVME9EQTVOak14TURNeU1nbGhNV1poTm1VMU1qUTRZV05rTVdSaE1qUTFNMk0yTXprNE1tVmhZVEF5Wm1FMlltWTFNR0V5WTJNMFl6ZzNNekJsTVRBek1URXpPV00wWlRKallqWTUJWmpRNU5tTXhOekEyWm1ZME16VXhZVGc1WVdRMVpEa3dNVGcxTXpFM05EUTJOVE0wWkRRelpXUTNPREl6WVRjNE5qSmpNbVpqTjJZeE5EazNNbU16WVFsa1l6TTNZbVE1TkRFMk9XVXdOek5sWlRGak9URTNZVFZqTURnek1UYzVObVEyTnpjMk9EZzVPR0kzTWpJNFptUXhaV0ZpWldSa01ESmpOVFpoTTJSaENURTJOelV5TVRrMU5USTNPREFKTmpVMk9EZGpObUkwWkdGa1lqaGlaRFV5TkdNNVpUY3dNalZrWXpBNFptSmpZMlEwWTJGalpHUmhNekEzWlRCbU5EY3lZV1JpWWpBMFpHSTFZakEwTWdsRFZGazFXVzFaZWsxNlJUUk5WRkpzVGxkRk1FNVhXbXhPTWxacldtcGFiRTE2Vm1oTmFsSnJXbFJqZWs1cVNteE9SRTAwVFhwck5FNVVUVEpaVjBWM1dtcGFiVnBFUW0xWlZGRXdUMFJPYkUxdFRUQmFWRWxLVFZSVk1FOUVRVFZPYWsxNFRVUk5lVTFuYkdoTlYxcG9UbTFWTVUxcVVUUlpWMDVyVFZkU2FFMXFVVEZOTWsweVRYcHJORTF0Vm1oWlZFRjVXbTFGTWxsdFdURk5SMFY1V1RKTk1GbDZaek5OZWtKc1RWUkJlazFVUlhwUFYwMHdXbFJLYWxscVdUVUpUMVJOTlU1cVp6Uk5hbXh0VFcxVk1FNVVaekJaVjBwcFRVUlZlRTVVWkd4WlZFVTBXbFJuZUUxSFZUTk9iVkV6V21wak5VOUVXWGRPZW1zelQwZE9iVTFFVFRWT01sRTBUakpKTVU1cVRtbGFWMDVzVG5kc2JVNUVZekJOYWxGNFQwZFNhVTVxYUd0Wk1sVXpUbTFWTlZwRVkzaGFWMHByVDBSYWFGbFVaR3ROYWxKcFRVZEdhMDlVUlhoT1YxVjRUVmRWTWs1NlFtcFphbEY2V21wQk5FMXRWVE5hVkZwcFRXcFJNa05VUlRKT2VsVjRUMVJSZUUxcVZUTk9lbXRLV2tSS2FVOUVUWGxPUkVWNVRrUk5NRTR5VlRSWlZHUnNUV3BSZVU5RVNtaFBSRkV6VG1wck5FNUVVVEZPUkZsM1RVUm9hMDFVYUdsTmJVVXlXbTFaTlU1SFRtbFpWR1JvVGpKWk0xcEVhelZhYWsxNlRVRTlQUWxPYlUweFRqSkplazFYVG14UFIwbDRUWHBWTTAxcVZtcE9WRTEzVGtSVk1VOVVUbWxaVjBVeFdtcEZOVTlVYTNsTmFrVXlXbXBOTUZsWFZtaFBWRlV4V2tSUk1rOVVSbXBaZWtwb1RsUm5NbGt5VVhwT2QyeHBXVmRWZWsxSFNURlpNbEY2VFZSck1rMTZUVFZOYWtWNlRVUmFhazlIU1ROUFZFRXhXVmRWZDFsVVFUVlpla1V5VFRKVk0wMUVXWGRaZWxsNFRrUldiVmxVVm14T1JHZDVXV3BKTTFwVVJYZFpWR04zUTFSRk1rNTZWWGxOUkdOM1RucEJlazVVVFVwTmFtaHRXWHBGZDA5VVNYbFpWRmw0V20xTmVGcEVUVEZhUkVVd1RYcFdhVTFVVFhkUFZGRTBUVWRSZVUxVVdURk9WMDVxVFZkTk0wOUVVWGRPTWxFeVRWUkthbGx0VVhkYWFsRjRXV3BqZWsxcWFHcE9aejA5Q1VOVVdUVlpiVmw2VFhwRk5FMVVVbXhPVjBVd1RsZGFiRTR5Vm10YWFscHNUWHBXYUUxcVVtdGFWR042VG1wS2JFNUVUVFJOZW1zMFRsUk5NbGxYUlhkYWFscHRXa1JDYlZsVVVUQlBSRTVzVFcxTk1GcFVTVXBOVkZVd1QwUkJOVTVxVFhoTlJFMTVUV2RzYUUxWFdtaE9iVlV4VFdwUk5GbFhUbXROVjFKb1RXcFJNVTB5VFRKTmVtczBUVzFXYUZsVVFYbGFiVVV5V1cxWk1VMUhSWGxaTWswd1dYcG5NMDE2UW14TlZFRjZUVlJGZWs5WFRUQmFWRXBxV1dwWk5RbE5SMUV6VGtSQ2JFNXRXbXhhVjFWNFRWZEZNVnBxUW1sTmJWRXhUVlJyZDAxNlZtMU5SMUY1VFcxVk1VOVVTbXBPVkZKb1dXMVdhMXBFYUdoT1YxcG9UV3BKTWxwdFVteGFWR3hxVFZSTk1VOUVXbXhhWjJ0NFRtMVJNazV0U1hwTmFrMHhXVlJPYUU1SFdUTk9WMVpwV2xkUk1WbHRVbXhOYWxKb1RsUlJNRTVVU210YVZHc3dUVzFKTUZscVRUSlBWMFpxVFZkR2FGbHRTVEJOUkVacldWZFJOVTVYVG1sYWFrSnRRMVJGTVU1cVl6TlBWRkV3VGtScmVVMXFXVXBPVkZVMFRucFpkMXBIUm10TmFsSnRUbXBqTkU5WFVUTk5SMXBvV1ZST2FrOUhXVEZOTWsxNlRVUkZNRTR5V1RKTk1sRXpUVlJTYkU1WFdURk5WMFV3VFcxWmVGcFVhM2RaZWxVMVRVUkpkMXBFWXpKUFFUMDlDVTVxWkdsT2JVWnFUVVJzYTAxcWF6Sk5lazB5VDFSU2JFMUVSbTFhVkdocFRWZGFhMDFVWjNwT1Ywa3hXWHBTYVUxRVl6Rk5WMDE1V1ZSVk0wNUVTVFJOUkZFMFRqSmFiRnBYVW1wYVYwVXlUVVJSZDA1M2F6Qk5ha0pyVFZSR2FrNUhVbWxQUkVKcVdtMUthRTFVYTNwT2VsVjNUVmRSZDA1Nlp6VmFSRUY2VFZSR2FGa3lSbWxQUjBwclRtMWFhMWx0UlRKWlYxRXpUa1JOZWs5RVp6Sk5lbVJwVGtkSmVsbHFaekZEVkVVeVRucFZlVTFVU1hkTlJHdDVUbFJuU2sxcWFHMVpla1YzVDFSSmVWbFVXWGhhYlUxNFdrUk5NVnBFUlRCTmVsWnBUVlJOZDA5VVVUUk5SMUY1VFZSWk1VNVhUbXBOVjAwelQwUlJkMDR5VVRKTlZFcHFXVzFSZDFwcVVYaFphbU42VFdwb2FrNW5iRVJXUm1zeFYxY3hXbVZyTVRaU1ZGSk9Wa1pLYzFSc1pFWk5SVFZZVjIxNFQwMXNXbkpYYlhCaFlrVXhObFp0YUU1aGJFcHlWMnhTYW1Wck5YRlRiWGhQVWtVd01GUlljSEpPUlRWVlZGUktXbFl3VmpOWGJYQmhZbFp3UlZGdE1WcFdSa1YzVkRCU1QySkZNWFJVVkVKaFZrVnNTMVJXVWxaTlJUbEZVVlJXVDJGck1UUlVWVkpPWlZVeGJtSkhhRTVXTVhCdlZHMHhWazFWTVhGVlZGSmFWakExY2xSV1pGTmhSVEZ4VlZSR1RrMXJNSGxVV0hCeVRrVXhkRlp0YUZwV1JVWTFWMjB4Umsxc2JIUlhWRVpPVWpCV05WZFVTazVOUm13MlducE9UbVZyU25OVVZsSkNaV3N4VlZKWWNGQldNREIzVjJ4U1MyRnNiSEZYVkZWS1YydGtTazFXYkZWVlZFSlFVa1V3TVZkV1VrcGxiSEIwVTFSS1QyRnRlRzlVYkZKWFlrVXdlVkpVU2s1U01GWXpWRlJLVGsxRk9WVlNiWGhQVmtkTmVGUXhVa1pOTVhCSVUyMW9XazFyV25SVWFrcFdaV3MxV0ZSVVVsQlNSVEF4VkZod1YySkZPVlZYYlhoT1lsVldORlJyUm5KT1JURnhWbTEwVUZaRlZqUlVNR1JPWkRBMVJWWllaRkJTUmtZMFYyeFNWazB3T1ZWaGVrcGFZbFpyZVZkWWNGSk5WbXhWWVVkNFQxWXdjRzlVVnpGR1RVVXhkRlZ0Y0U5aGJVNDBWMnhTVWs1Vk5VVldWRUphVFd4Vk1WUXhVa2RpVm5CRlUxUkNUbEl3TUhoVWJuQnlaVVZPVlZKVVJrOWhiV1EwVkcxd1FtVkZOWEZVV0dSUFlXeEdTMVJzWkZKTk1XeFZXbnBDVDAxc2NIUlVWV1JYWWxac2RGWlVVazVsYlhoMFYyMHhXazFWT1VWU1ZFcFBaV3hhY1ZReFpFNWxhekZGV2tkNFdsWkdTbk5YVjNCYVpWWndjVlZZYkU5bGEwcHZWMVpTY2sxRk9WaFViVEZPWWxaV05WUXhVa0pOUlRCNVVsaHNXbFpGVlRCVVYyTTVVRkZzVDFaSGFIUlViRkpLWldzeFNGTlVSbUZoYkVweFZGaHdUMkpXYkRaU1dHaFBWa1pzTlZSWWNITmlSVFZJVjFoa1VGWXhXbkJYYkZKdVpERnNObEpVUms1V1IzTjNWRmh3Vmswd01VVldWRUpoVmtaV05GUnRjRnBOUlRGSVZGUk9XbVZzUlhkWFZ6RkhZVEF4ZEZadGVHRlZWM041VjJ4a1IyRXdOVmhUYlhCUFVrWkdORlJzVWxwbGF6VkZVbTFzVDFKRlZqWlhWRXBYWWtad1JWSnRhRTloYTNCdlZGWmtWMkpWTlRaU1dIQmFZV3h3YzFSclVtdGhSVEZWVm0xMFlWWkZXblJYYkZKUFlVVXhTRlZZWkZwaGExVXdWMWR3UmsxR2JGVlNiVEZPVWtWcmQxRXhVa1pOYXpVMlZsaG9UbEpHUmpOVWJGSnFaV3N4Tmxrd2NFOWxhMVkyVkcweFJtVlZNVVZhUjNoUFRXc3dlRmR0Y0ZabFJtdzJWbTFzVUZaRlJqUlVibkJ6WWtac2NWbDZTbHBXUld3elYydFNUazFXYkZWaVIzQlBWakZHTlZSV1pFNWxWbXh4VVZSU1QxWXhjSEpVVm1SS1pVWnNXRkp0Y0ZwbGJXUXpWMVpTYWsxVk1UWlRWRVpPVVZRd09VTlZUbFZYVkZaYVlsWnNObFJZY0VaT1JURlZWVzE0VDFZd1ZYZFViR1JoWWtVMGVWWnRkR0ZoYkhCelZGaHdWMkZGTVhGVmJYUmhWa2RPTmxSdGNFdGlSVFZGVkZSU1RtVnRjekJVYkZKT1RXeHNXRkpZWkdGaGJIQjBWMnRTUTJKV2JGVlZWRUpRVWtVMWMxUlhNVTVOUm5CVlUxVndUbFpHVlhkVU1GSkNUbFUxY1ZSWWFFNVNSVEUxVkZka2MyRkZNVmhYYldoUFlsWlZlRlJYY0ZKT1JteFlWRzEwVGxZeFNtOVVWM0JTVFZVd2VWUlVTazVsYlhNd1ZGY3hWMkZHYkZWUldHeGhZbFZWZVZkWE1WcE5WVEZJVWxoc1drMXJNSGRYV0hCdVRUQXhObEZ0ZUU1V1JVWTJWRlpTUm1Wck9WaFVWRUpoVmtWd2NWZFhjRnBPVVd4UVZrVXdNVlJ0Y0c1T1JURnhZa2N4VG1KV1ZYZFViRkp1VFVac1dGTnRiRTVTUmxZMFZHeFNhMkpHYkZWU1ZGSmhWa2RrTkZSVlpGWk5NRFYwVlZST1lXRnRUVEZVTUZKYVpEQTFObUY2VGxCU01EVjBWRlZTVGs1Vk5IbFZWRkpQVFd0cmVGUnRjRTloVm5CWVZHMTRUMlF5ZUhSVWExSnFUVVV4Y1ZWWWFGQlNNVXB3Vkcxd2IyRXhhM2xXVkU1UFlsWlZNVmRyVW1wbFJuQllVMjEwVUZKR2NHOVhWbEpyWVRBeGNWVnRiRTVTTUZweVZERlNSbVZGTlZoV1dHaE9WakZWZVZSdWNFTmhiR3h4VlZod1lXRnJSVEJVVnpGV1RURndWVmR0YkU1aGJFVjVVVEZTUmsxck5UWldXR2hRVmtaR05GUlhjRlpOTURVMllUQndZVkpGY0hCVU1GSk9aVlUxUlZKWWJFOVNSVEIzVkdwS1ZrNUdiRlZhUjNoT1lXeEdOVlF3VWt0aFJUbEZWVlJPVDJGdGN6QlVhMUpTVFZVMVJWZFlaRTVTUjJoeVZGWlNiMkZWTVhSU1ZFcGhZbFpyTVZSclpFOWhWbXhWV2tkb1QwMXNhM3BYYTFKeVRsWndjVlJZY0U1UlZEQTVRMVUxZEZSVVJrOU5hMncyVkZaa1QySkZPVWhUV0doT1pXeFZlbFJYY0ZkaGF6VlZWRmhrVDFKR1ZYaFVNVkpQWVZac1dGSlVSbUZoYTFVeFZERlNjbVZWTVhGU1ZFcGhZV3N3ZDFkV1pGZGhSVGxWVmxSR1lWSkdSWGxVTVZKSFlXeHNObE50YUU5V1IyTjVWMVJLVW1Wck5UTmlSMnhhVmpGV05sUlZaRXBOVm10NVZWaHdUbFpIYzNsVVdIQk9UbFV4Y1ZKWWNFNVNSbkJ4VkRCa1NrMHdPVlZSVkVaYVZqRldNMWRXVWtKT1ZtdzJVbFJLVGsxc1ZYcFVWVkphWkRGc05sZFlhRTlTUmxwMFYxWlNWMkpGTlVWYU0yeGFZV3RyZWxkc1VrWmtNV3hWV1ROa1JGWkZWWGxVYm5CV1pWVXhSVmt6WkU5bGEwWTJWR3hTVGxOck1YRmhSekZhWld0V00xUXhVa3BsVm14VlYxaG9ZV0pWTVRSWGExSk9UVlp3UlZKVVFrNWxiRnB3VkZaU1RtUXdPVlZWVkZKT1VqRkdOVlJXVWxwTlZUVllWRzF3VGxZd01IcFVNRkpTWkRBMGVWVlVTazVXUlhCeFYxY3hVbVF4Y0hGVldHaGFZVzFPTmxSWGNHOWhhelZ1VUZRd1BRPT0JWkdNek4ySmtPVFF4TmpsbE1EY3paV1V4WXpreE4yRTFZekE0TXpFM09UWmtOamMzTmpnNE9UaGlOekl5T0daa01XVmhZbVZrWkRBeVl6VTJZVE5rWVFrNU5UUXpZV1JpT1RZNE5qVXpObUkxWkRaaE1qTXhOV0l3T0RFMllUWTRaR0UxWmpWbU16QmxNakZtWlRnNVltUTJNVFJoTkRKaFlXUTNOR05pWlRCbENURTJOelV5TVRrMk1UQTJPVElKWWpCbE16UTFabVZqWkdVME1UVTBORE5rWm1FMk5EQmtZelEzWldZNE9ESXdZelJsTkRkbU16QTRaamsyWlRnNE5EVmtOelkzTjJReU1UUmpNVGhtWWc9PQ\u003d\u003d",
+    "Y2Y0NTRkZjAzMWU3NDI2YzIxOWExMmYyMDdjNGQ4MmJlYzQ2M2NmYjkzZTQ4Mzc4ZDIyNzYxODk2MDg4MGQyMwk0YmQ0MzVkNmM5NmZiOTAxMjhjMzA3YmM4MmRlNzFmZDFjOTA0MzU1Zjc0ZDYwZTRlMDI2M2ZkODcxOWJjODk4CTE3MDYxMjI2NDIwMTUJNTJkYzFhODAwMGM1NDc0YTUzZmIzOWJhMjBkYWY3N2M4OGFkMDFmMWU5ZWMxMTQ1OGU0Y2Q1ZmU1Y2VmZjE1Zg\u003d\u003d",
+    "NGJkNDM1ZDZjOTZmYjkwMTI4YzMwN2JjODJkZTcxZmQxYzkwNDM1NWY3NGQ2MGU0ZTAyNjNmZDg3MTliYzg5OAllMGI1MTA0MTFjMTQ1NDc3YjUxZGE1NjdjMTU2YTQ0ZjkxNGQ3YmY0ZGY2NjZmMWVjNTUyZDIxYzIzYTQxMzUxCTE3MDYxMjI2NDIxODcJNTJkYzFhODAwMGM1NDc0YTUzZmIzOWJhMjBkYWY3N2M4OGFkMDFmMWU5ZWMxMTQ1OGU0Y2Q1ZmU1Y2VmZjE1Zg\u003d\u003d",
+    "ZTBiNTEwNDExYzE0NTQ3N2I1MWRhNTY3YzE1NmE0NGY5MTRkN2JmNGRmNjY2ZjFlYzU1MmQyMWMyM2E0MTM1MQk4MWQyZTgzNjUxNzY4OWEwNzBlYTk0ZmE2YWVmNzQwOGE4NmExOTE2ZmJhNWU4NDg0ZjBlZGIxZmRmYmE2OTUwCTE3MDY2NjkxMDg0NjkJNGUwYWUzYWNhNjlmMDg1NmEwYzA4ZjgyYmYwYjMwNGNhOGU2NDE3NjljNzQ4YmZkZTU0ODBlYjJkNjM1YmUzOQ\u003d\u003d",
+    "ODFkMmU4MzY1MTc2ODlhMDcwZWE5NGZhNmFlZjc0MDhhODZhMTkxNmZiYTVlODQ4NGYwZWRiMWZkZmJhNjk1MAk4NDI0MTE4ZmJhNDdlOGJkNzNhZTJkNGQzMWY1OGYyMDkyN2ExMmZmMmFhYzgxZGNmNzlkN2E0YmEwZWMzYjM5CTE3MDY2NjkxMDg2NjAJNGUwYWUzYWNhNjlmMDg1NmEwYzA4ZjgyYmYwYjMwNGNhOGU2NDE3NjljNzQ4YmZkZTU0ODBlYjJkNjM1YmUzOQ\u003d\u003d",
+    "ODQyNDExOGZiYTQ3ZThiZDczYWUyZDRkMzFmNThmMjA5MjdhMTJmZjJhYWM4MWRjZjc5ZDdhNGJhMGVjM2IzOQlhNGI1N2Q2ODY4M2U5Zjk2ODVmZGJiZDZiOWRlY2NjMzNiOTAzOGQ5OTk4ZGQ3N2EzOGM0MTMyMGJkMDMxZjk2CTE3MDY2NjkxMTAwNjEJNGUwYWUzYWNhNjlmMDg1NmEwYzA4ZjgyYmYwYjMwNGNhOGU2NDE3NjljNzQ4YmZkZTU0ODBlYjJkNjM1YmUzOQ\u003d\u003d",
+    "YTRiNTdkNjg2ODNlOWY5Njg1ZmRiYmQ2YjlkZWNjYzMzYjkwMzhkOTk5OGRkNzdhMzhjNDEzMjBiZDAzMWY5Ngk2NTNkZmRiMjI2NzFkYjA5MmZkNjhhNDY1YTgxODU4ZGE1MDFhZDA4NGQzNWUzYTg1MDQyYWVjNjQ2M2ZmZWZmCTE3MDY2NjkxMTAyNzIJNGUwYWUzYWNhNjlmMDg1NmEwYzA4ZjgyYmYwYjMwNGNhOGU2NDE3NjljNzQ4YmZkZTU0ODBlYjJkNjM1YmUzOQ\u003d\u003d",
+    "NjUzZGZkYjIyNjcxZGIwOTJmZDY4YTQ2NWE4MTg1OGRhNTAxYWQwODRkMzVlM2E4NTA0MmFlYzY0NjNmZmVmZglkODMxMTcwMzc4NzZlYjcwYzg4NjRjN2I2MDg4ZWY4MzFiZGQwOThjNWZjNGUwZWUwZDQxNWZiOTM2NGQ3Yzk0CTE3MDY2NjkxMTA0NjQJNGUwYWUzYWNhNjlmMDg1NmEwYzA4ZjgyYmYwYjMwNGNhOGU2NDE3NjljNzQ4YmZkZTU0ODBlYjJkNjM1YmUzOQ\u003d\u003d",
+    "ZDgzMTE3MDM3ODc2ZWI3MGM4ODY0YzdiNjA4OGVmODMxYmRkMDk4YzVmYzRlMGVlMGQ0MTVmYjkzNjRkN2M5NAllNTBmMTQ5MjQwMmFjYjA3YTJkZDBhMjE4ODVlOTRmODcwZmFkYmYyZjQzMWIzM2I1MzIwNTRhMmZmZTNkYWNiCTE3MDY2Njk2NTIxNDUJYTM5ZThhYTIyYmRjNWEwNmJlY2U2Y2I5YjUxZjZkMTVjZmYzMzE5N2RjNDc3NWIyMWVlY2MxZGE5ODZhZGQ2NA\u003d\u003d",
+    "ZTUwZjE0OTI0MDJhY2IwN2EyZGQwYTIxODg1ZTk0Zjg3MGZhZGJmMmY0MzFiMzNiNTMyMDU0YTJmZmUzZGFjYgk3ZjkwODA2MWYyNjUzNTg2ZDY1MmZlMjM2MmExZDJmNDE5MzVmNzhiNDQ0M2FjNTIxNmJjYzdjYTVlN2QwYjFiCTE3MDY2Njk2NTIzNDIJYTM5ZThhYTIyYmRjNWEwNmJlY2U2Y2I5YjUxZjZkMTVjZmYzMzE5N2RjNDc3NWIyMWVlY2MxZGE5ODZhZGQ2NA\u003d\u003d",
+    "N2Y5MDgwNjFmMjY1MzU4NmQ2NTJmZTIzNjJhMWQyZjQxOTM1Zjc4YjQ0NDNhYzUyMTZiY2M3Y2E1ZTdkMGIxYgkzMDlkOGJkYjg1MmFkNjkxYWQyMWJiODFiMWMxM2VmMmJmNWE3ZmYyYzhmYjk1ZDlkNDg2N2FkMTMzNTQyNzcwCTE3MDY2Njk2NTI0ODQJYTM5ZThhYTIyYmRjNWEwNmJlY2U2Y2I5YjUxZjZkMTVjZmYzMzE5N2RjNDc3NWIyMWVlY2MxZGE5ODZhZGQ2NA\u003d\u003d",
+    "MzA5ZDhiZGI4NTJhZDY5MWFkMjFiYjgxYjFjMTNlZjJiZjVhN2ZmMmM4ZmI5NWQ5ZDQ4NjdhZDEzMzU0Mjc3MAk2OTM1OGFkYTVjYzkwMzBkNmZiNGQ3N2Y3MTIxYTJhODkwOWRhN2YzOTI5OWMzMzI1MWNmYmYwZDIxNTQxODkxCTE3MDY2Njk2NzU4NDkJNzhkM2RlOTgyYmVlMTVhNzliMmU3MTJjYWRkMWM5MGQ3MTY5ODA4NDRkYzFlNzkxYTUzNzc2MjIxNWMyZDdmZQ\u003d\u003d",
+    "NjkzNThhZGE1Y2M5MDMwZDZmYjRkNzdmNzEyMWEyYTg5MDlkYTdmMzkyOTljMzMyNTFjZmJmMGQyMTU0MTg5MQkyMmE0ZDU5ZTlhMmZiMGUwNThlNjY4ODI3MTAxNTdlZDRkOGMzNGIzODAyMWMyNmYwZWZkYzQzNzliMGZiNzM3CTE3MDY2Njk2NzY1NDIJNzhkM2RlOTgyYmVlMTVhNzliMmU3MTJjYWRkMWM5MGQ3MTY5ODA4NDRkYzFlNzkxYTUzNzc2MjIxNWMyZDdmZQ\u003d\u003d",
+    "MjJhNGQ1OWU5YTJmYjBlMDU4ZTY2ODgyNzEwMTU3ZWQ0ZDhjMzRiMzgwMjFjMjZmMGVmZGM0Mzc5YjBmYjczNwkzYmU3MzFmYTk4MzZjZjM2NGYzZGExZDJhYzU2ZmYzNjNiYTBmMTQ0N2Y4YjM0OWM3NTk1MjRiZGIzZjI4ZGQ3CTE3MDY2Njk2NzY3MTAJNzhkM2RlOTgyYmVlMTVhNzliMmU3MTJjYWRkMWM5MGQ3MTY5ODA4NDRkYzFlNzkxYTUzNzc2MjIxNWMyZDdmZQ\u003d\u003d"
+  ]
+}

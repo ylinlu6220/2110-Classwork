@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="hw1checker">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/student/hw1checker.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
